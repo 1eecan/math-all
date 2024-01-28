@@ -17,8 +17,16 @@ npm install math-all
 Here is a basic example of using the `MathAll.round` function:
 
 ```javascript
-import MathAll from "math-all";
+import { MathAll } from "math-all";
+```
 
+or
+
+```javascript
+const { MathAll } = require("math-all");
+```
+
+```javascript
 // Example usage
 const roundedValue = MathAll.round(14321.12345, -5);
 console.log(roundedValue); // Output: 14321.12345

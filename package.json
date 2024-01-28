@@ -24,7 +24,13 @@
     "url": "git+https://github.com/1eecan/math-all.git"
   },
   "keywords": [
-    "round"
+    "Math",
+    "round",
+    "ceil",
+    "floor",
+    "Math.round",
+    "Math.ceil",
+    "Math.floor"
   ],
   "author": "1eecan (https://github.com/1eecan)",
   "license": "MIT",

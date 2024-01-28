@@ -1,0 +1,37 @@
+{
+  "name": "math-all",
+  "version": "0.0.1",
+  "description": "Versatile JavaScript library for precise rounding of decimal places and significant digits.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1eecan/math-all.git"
+  },
+  "keywords": [
+    "round"
+  ],
+  "author": "1eecan (https://github.com/1eecan)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1eecan/math-all/issues"
+  },
+  "homepage": "https://github.com/1eecan/math-all#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {
+      "\\.js$": "babel-jest"
+    }
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}

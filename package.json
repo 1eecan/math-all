@@ -5,7 +5,7 @@
   "description": "Versatile JavaScript library for precise rounding of decimal places and significant digits.",
   "main": "dist/index.js",
   "scripts": {
-    "prepack": "npm build",
+    "prepack": "npm run build",
     "build": "npm run clean && npm run build:tsc && npm run build:js",
     "build:tsc": "tsc --emitDeclarationOnly",
     "build:js": "node build.js",

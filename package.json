@@ -1,7 +1,7 @@
 {
   "name": "math-all",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Versatile JavaScript library for precise rounding of decimal places and significant digits.",
   "main": "dist/index.js",
   "scripts": {

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const MathAll = {\n  round: function (target: number, digit: number): number {\n    const copiedTarget = target < 0 ? -1 * target : target;\n    const isNegative = target < 0 ? true : false;\n\n    if (digit >= copiedTarget.toString().length) {\n      throw new Error(\"digit can't be over the target's digit\");\n    } else if (digit > 100 || digit < -100) {\n      throw new Error(\"digits argument must be between -100 and 100 \");\n    } else if (digit > -100 && digit < 0) {\n      const result = Number(\n        Math.round((copiedTarget + \"e\" + -1 * digit) as any) + \"e-\" + -1 * digit\n      );\n      return isNegative ? -1 * result : result;\n    } else {\n      const result = Number(\n        Math.round(copiedTarget / 10 ** digit) * 10 ** digit\n      );\n      return isNegative ? -1 * result : result;\n    }\n  },\n};\nexport default MathAll;\n"],
+  "mappings": ";AAAA,IAAM,UAAU;AAAA,EACd,OAAO,SAAU,QAAgB,OAAuB;AACtD,UAAM,eAAe,SAAS,IAAI,KAAK,SAAS;AAChD,UAAM,aAAa,SAAS,IAAI,OAAO;AAEvC,QAAI,SAAS,aAAa,SAAS,EAAE,QAAQ;AAC3C,YAAM,IAAI,MAAM,wCAAwC;AAAA,IAC1D,WAAW,QAAQ,OAAO,QAAQ,MAAM;AACtC,YAAM,IAAI,MAAM,+CAA+C;AAAA,IACjE,WAAW,QAAQ,QAAQ,QAAQ,GAAG;AACpC,YAAM,SAAS;AAAA,QACb,KAAK,MAAO,eAAe,MAAM,KAAK,KAAa,IAAI,OAAO,KAAK;AAAA,MACrE;AACA,aAAO,aAAa,KAAK,SAAS;AAAA,IACpC,OAAO;AACL,YAAM,SAAS;AAAA,QACb,KAAK,MAAM,eAAe,MAAM,KAAK,IAAI,MAAM;AAAA,MACjD;AACA,aAAO,aAAa,KAAK,SAAS;AAAA,IACpC;AAAA,EACF;AACF;AACA,IAAO,mBAAQ;",
+  "names": []
+}

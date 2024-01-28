@@ -1,5 +1,5 @@
 const MathAll = {
-  round: function (target, digit) {
+  round: function (target: number, digit: number): number {
     const copiedTarget = target < 0 ? -1 * target : target;
     const isNegative = target < 0 ? true : false;
 
@@ -9,7 +9,7 @@ const MathAll = {
       throw new Error("digits argument must be between -100 and 100 ");
     } else if (digit > -100 && digit < 0) {
       const result = Number(
-        Math.round(copiedTarget + "e" + -1 * digit) + "e-" + -1 * digit
+        Math.round((copiedTarget + "e" + -1 * digit) as any) + "e-" + -1 * digit
       );
       return isNegative ? -1 * result : result;
     } else {

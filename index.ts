@@ -20,4 +20,4 @@ const MathAll = {
     }
   },
 };
-export default MathAll;
+export { MathAll };

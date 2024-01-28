@@ -20,7 +20,7 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // index.ts
 var math_all_exports = {};
 __export(math_all_exports, {
-  default: () => math_all_default
+  MathAll: () => MathAll
 });
 module.exports = __toCommonJS(math_all_exports);
 var MathAll = {
@@ -44,5 +44,4 @@ var MathAll = {
     }
   }
 };
-var math_all_default = MathAll;
 //# sourceMappingURL=index.cjs.map

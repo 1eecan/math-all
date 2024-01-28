@@ -20,8 +20,7 @@ var MathAll = {
     }
   }
 };
-var math_all_default = MathAll;
 export {
-  math_all_default as default
+  MathAll
 };
 //# sourceMappingURL=index.js.map

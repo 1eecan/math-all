@@ -1,4 +1,19 @@
-# Math-All Library
+# Math-All
+
+## Examples
+
+Here are some examples of using the `MathAll.round` function:
+
+```javascript
+// Rounding to the nearest integer
+const result1 = MathAll.round(14321.12345, 0); // Output: 14321
+
+// Rounding to the nearest ten
+const result2 = MathAll.round(14321.12345, 1); // Output: 14320
+
+// Rounding to the second decimal place
+const result3 = MathAll.round(14321.12344, -2); // Output: 14321.12
+```
 
 ## Overview
 
@@ -55,15 +70,3 @@ Math.round(copiedTarget / 10 ** digit) * 10 ** digit;
 ```
 
 This formula ensures accurate rounding based on the specified digit.
-
-## Examples
-
-Here are some examples of using the `MathAll.round` function:
-
-```javascript
-// Rounding to the nearest integer
-const result1 = MathAll.round(14321.12345, 0); // Output: 14321
-
-// Rounding to the nearest ten
-const result2 = MathAll.round(14321.12345, 1); // Output: 14320
-```

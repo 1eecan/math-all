@@ -1,4 +1,4 @@
-import MathAll from "./index.js";
+import MathAll from "./dist/index.js";
 
 // Positive number test cases
 
